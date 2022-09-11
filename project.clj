@@ -1,6 +1,6 @@
 ;; Copyright © 2015, JUXT LTD.
 
-(defproject com.github.zackteo/aero "1.1.6-dev-SNAPSHOT"
+(defproject com.github.zackteo/aero "1.1.6-dev-SNAPSHOT-1"
   :description "A small library for explicit, intentful configuration."
   :url "http://github.com/juxt/aero"
   :license {:name "The MIT License"
