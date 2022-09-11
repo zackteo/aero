@@ -18,6 +18,7 @@
                   ["deploy" "clojars"]
                   ["vcs" "push"]]
   :eastwood {:namespaces [aero.core aero.alpha.core]}
+  :resource-paths ["resources"]
   :profiles
   {:provided {:dependencies [[org.clojure/clojure "1.8.0"]]}
    :dev {:plugins [[lein-cljfmt "0.5.7"]
