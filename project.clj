@@ -1,6 +1,6 @@
 ;; Copyright © 2015, JUXT LTD.
 
-(defproject aero "1.1.6"
+(defproject com.github.zackteo/aero "1.1.6-dev-SNAPSHOT"
   :description "A small library for explicit, intentful configuration."
   :url "http://github.com/juxt/aero"
   :license {:name "The MIT License"
@@ -18,6 +18,8 @@
                   ["deploy" "clojars"]
                   ["vcs" "push"]]
   :eastwood {:namespaces [aero.core aero.alpha.core]}
+  :deploy-repositories [["releases" :clojars]
+                        ["snapshots" :clojars]]
   :resource-paths ["resources"]
   :profiles
   {:provided {:dependencies [[org.clojure/clojure "1.8.0"]]}
